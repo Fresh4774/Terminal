@@ -23,7 +23,7 @@ Type 'repo' for the GitHub repository.
 
 // Redirection
 export const repo = async (args: string[]): Promise<string> => {
-  window.open(`${config.repo}`);
+  window.open(`https://aquin.app`);
   return 'Opening Github repository...';
 };
 
@@ -38,7 +38,7 @@ More about me:
 };
 
 export const resume = async (args: string[]): Promise<string> => {
-  window.open(`${config.resume_url}`);
+  window.open(`https://aquin.app`);
   return 'Opening resume...';
 };
 
@@ -46,8 +46,8 @@ export const resume = async (args: string[]): Promise<string> => {
 export const donate = async (args: string[]): Promise<string> => {
   return `thank you for your interest. 
 here are the ways you can support my work:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
+- <u><a class="text-light-blue dark:text-dark-blue underline" href="https://aquin.app" target="_blank">paypal</a></u>
+- <u><a class="text-light-blue dark:text-dark-blue underline" href="https://aquin.app" target="_blank">patreon</a></u>
 `;
 };
 
