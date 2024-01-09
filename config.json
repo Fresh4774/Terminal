@@ -1,0 +1,23 @@
+{
+  "readmeUrl": "",
+  "title": "Aquin",
+  "name": "John Doe",
+  "ascii": "Aquin",
+  "social": {
+    "github": "github",
+    "linkedin": "linkedin"
+  },
+  "email": "aquin.explore@gmail.com",
+  "ps1_hostname": "Aquin",
+  "ps1_username": "User",
+  "colors": {
+    "light": {
+      "background": "#000",
+      "foreground": "#fff"
+    },
+    "dark": {
+      "background": "#000",
+      "foreground": "#fff"
+    }
+  }
+}
